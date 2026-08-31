@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   creator: "Naira",
   publisher: "SkyLit Compass",
   metadataBase: new URL("https://sky-shard-tracker-lilac.vercel.app"),
+  verification: {
+    google: "UW5aO0HrFzh6mk3oQQbjnZJ-vfPJp7OsuO6atPFYXnk",
+  },
   openGraph: {
     title: "SkyLit Compass | Sky Shard Tracker",
     description: "Track daily Sky: Children of the Light shard eruptions with cozy aesthetics, real-time countdowns, maps, and spirit memories.",
