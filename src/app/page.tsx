@@ -657,8 +657,8 @@ function ScrapbookShardTracker() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="opacity-80">Source Code:</span> 
-                <a href="#" className="text-[#E2B4BD] italic hover:text-[#3D2B1F] transition-colors">
-                  Repository coming soon...
+                <a href="https://github.com/NairaMehjabin/sky-shard-tracker" target="_blank" rel="noreferrer" className="text-[#E2B4BD] italic hover:text-[#3D2B1F] transition-colors">
+                  GitHub Repository of Skylit Compass.
                 </a>
               </li>
             </ul>
