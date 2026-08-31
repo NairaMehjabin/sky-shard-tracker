@@ -17,8 +17,33 @@ const curlyFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Skylit Tracker",
-  description: "Dynamic Horizon Interface",
+  title: "SkyLit Compass | Sky: Children of the Light Shard Tracker",
+  description: "A cozy, aesthetic tracker for Sky: Children of the Light shard eruptions, wax rewards, red shards, maps, and spirit memories.",
+  keywords: [
+    "sky children of the light",
+    "sky shard tracker",
+    "sky cotl shards",
+    "sky shards map",
+    "skylit compass",
+    "sky shards schedule"
+  ],
+  authors: [{ name: "Naira" }],
+  creator: "Naira",
+  publisher: "SkyLit Compass",
+  metadataBase: new URL("https://sky-shard-tracker-lilac.vercel.app"),
+  openGraph: {
+    title: "SkyLit Compass | Sky Shard Tracker",
+    description: "Track daily Sky: Children of the Light shard eruptions with cozy aesthetics, real-time countdowns, maps, and spirit memories.",
+    url: "https://sky-shard-tracker-lilac.vercel.app",
+    siteName: "SkyLit Compass",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SkyLit Compass | Sky Shard Tracker",
+    description: "Cozy Sky: Children of the Light Shard Tracker with real-time countdowns and maps.",
+  },
 };
 
 export default function RootLayout({
